@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{86D9894A-0C82-4E80-87B3-0BD1C1F3246A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{A3296484-ED82-4812-B1E8-A37B7786696A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlinePollingSystem.Core", "OnlinePollingSystem.Core\OnlinePollingSystem.Core.csproj", "{BADCE64C-F608-4689-990A-E295DCC4672A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlinePollingSystem.IOC", "OnlinePollingSystem.IOC\OnlinePollingSystem.IOC.csproj", "{C03E3898-687A-429D-8B74-A2C82C455D76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlinePollingSystem.Data", "OnlinePollingSystem\OnlinePollingSystem.Data.csproj", "{3A28FE9A-B058-4417-86F3-78F459F8E726}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlinePollingSystem.Domain", "OnlinePollingSystem.Domain\OnlinePollingSystem.Domain.csproj", "{034D3CC9-7AFE-4C79-BDCA-B0CA77EE5B50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlinePollingSystem.API", "OnlinePollingSystem.API\OnlinePollingSystem.API.csproj", "{0A8334C5-5B2E-4197-A4B8-F0E3334F91E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlinePollingSystem.UI", "OnlinePollingSystem.UI\OnlinePollingSystem.UI.csproj", "{22C092CA-1060-460F-8B86-519994CC7950}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BADCE64C-F608-4689-990A-E295DCC4672A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BADCE64C-F608-4689-990A-E295DCC4672A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BADCE64C-F608-4689-990A-E295DCC4672A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BADCE64C-F608-4689-990A-E295DCC4672A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C03E3898-687A-429D-8B74-A2C82C455D76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03E3898-687A-429D-8B74-A2C82C455D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03E3898-687A-429D-8B74-A2C82C455D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03E3898-687A-429D-8B74-A2C82C455D76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A28FE9A-B058-4417-86F3-78F459F8E726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A28FE9A-B058-4417-86F3-78F459F8E726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A28FE9A-B058-4417-86F3-78F459F8E726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A28FE9A-B058-4417-86F3-78F459F8E726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{034D3CC9-7AFE-4C79-BDCA-B0CA77EE5B50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{034D3CC9-7AFE-4C79-BDCA-B0CA77EE5B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{034D3CC9-7AFE-4C79-BDCA-B0CA77EE5B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{034D3CC9-7AFE-4C79-BDCA-B0CA77EE5B50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A8334C5-5B2E-4197-A4B8-F0E3334F91E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A8334C5-5B2E-4197-A4B8-F0E3334F91E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A8334C5-5B2E-4197-A4B8-F0E3334F91E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A8334C5-5B2E-4197-A4B8-F0E3334F91E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22C092CA-1060-460F-8B86-519994CC7950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C092CA-1060-460F-8B86-519994CC7950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C092CA-1060-460F-8B86-519994CC7950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C092CA-1060-460F-8B86-519994CC7950}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A28FE9A-B058-4417-86F3-78F459F8E726} = {86D9894A-0C82-4E80-87B3-0BD1C1F3246A}
+		{034D3CC9-7AFE-4C79-BDCA-B0CA77EE5B50} = {86D9894A-0C82-4E80-87B3-0BD1C1F3246A}
+		{0A8334C5-5B2E-4197-A4B8-F0E3334F91E3} = {A3296484-ED82-4812-B1E8-A37B7786696A}
+		{22C092CA-1060-460F-8B86-519994CC7950} = {A3296484-ED82-4812-B1E8-A37B7786696A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49960013-E1C6-4B0B-A962-E972F6FD9C6D}
+	EndGlobalSection
+EndGlobal
